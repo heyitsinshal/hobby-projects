@@ -3,7 +3,7 @@ import { appConfig } from '~/configs/app.config';
 
 export default defineConfig({
   out: './migrations',
-  schema: './src/post/post.model.ts',
+  schema: './src/post/model.ts',
   dialect: 'postgresql',
   dbCredentials: {
     url: appConfig.DATABASE_URL!,
