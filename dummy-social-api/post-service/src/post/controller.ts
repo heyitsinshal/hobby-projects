@@ -1,6 +1,6 @@
 import { Context } from 'hono';
-import * as postService from '../services/post.service';
-import { createPostDto, updatePostDto } from '../dtos/post.dtos';
+import * as postService from './service';
+import { createPostDto, updatePostDto } from './dtos';
 import { handleZodError, handleUnexpectedError } from '../utils/error.utils';
 import { ZodError } from 'zod';
 

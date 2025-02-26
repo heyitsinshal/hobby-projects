@@ -6,7 +6,7 @@ import {
   getAllPosts,
   getPostById,
   updatePost,
-} from '~/controllers/post.controller';
+} from '~/post/controller';
 
 const app = new Hono();
 

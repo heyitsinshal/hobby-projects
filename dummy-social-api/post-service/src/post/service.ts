@@ -1,6 +1,6 @@
 import { eq } from 'drizzle-orm';
-import { db } from '~/app/db';
-import { posts } from '~/models/post.model';
+import { db } from '../app/db';
+import { posts } from './model';
 
 export const getAllPosts = async () => {
   return await db.select().from(posts);
